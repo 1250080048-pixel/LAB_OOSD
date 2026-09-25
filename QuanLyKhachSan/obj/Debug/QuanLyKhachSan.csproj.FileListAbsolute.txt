@@ -1,0 +1,17 @@
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FrmMain.resources
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe.config
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FrmDatPhong.resources
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FrmDichVu.resources
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FrmTraPhong.resources
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FrmThongKe.resources
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FrmDanhMucDichVu.resources
+C:\Users\ADMIN\source\repos\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FrmPhong.resources
