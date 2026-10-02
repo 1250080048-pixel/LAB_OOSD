@@ -1,0 +1,21 @@
+C:\Users\kirit\Downloads\eShopping_Prototype (1)\eShopping\bin\Debug\net472\eShopping.exe.config
+C:\Users\kirit\Downloads\eShopping_Prototype (1)\eShopping\bin\Debug\net472\eShopping.exe
+C:\Users\kirit\Downloads\eShopping_Prototype (1)\eShopping\bin\Debug\net472\eShopping.pdb
+C:\Users\kirit\Downloads\eShopping_Prototype (1)\eShopping\obj\Debug\net472\eShopping.csproj.AssemblyReference.cache
+C:\Users\kirit\Downloads\eShopping_Prototype (1)\eShopping\obj\Debug\net472\eShopping.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kirit\Downloads\eShopping_Prototype (1)\eShopping\obj\Debug\net472\eShopping.AssemblyInfoInputs.cache
+C:\Users\kirit\Downloads\eShopping_Prototype (1)\eShopping\obj\Debug\net472\eShopping.AssemblyInfo.cs
+C:\Users\kirit\Downloads\eShopping_Prototype (1)\eShopping\obj\Debug\net472\eShopping.csproj.CoreCompileInputs.cache
+C:\Users\kirit\Downloads\eShopping_Prototype (1)\eShopping\obj\Debug\net472\eShopping.exe
+C:\Users\kirit\Downloads\eShopping_Prototype (1)\eShopping\obj\Debug\net472\eShopping.pdb
+C:\Users\kirit\LAB_OOSD\LAB4\eShopping_Prototype\eShopping\bin\Debug\net472\eShopping.exe.config
+C:\Users\kirit\LAB_OOSD\LAB4\eShopping_Prototype\eShopping\bin\Debug\net472\eShopping.exe
+C:\Users\kirit\LAB_OOSD\LAB4\eShopping_Prototype\eShopping\bin\Debug\net472\eShopping.pdb
+C:\Users\kirit\LAB_OOSD\LAB4\eShopping_Prototype\eShopping\obj\Debug\net472\eShopping.csproj.AssemblyReference.cache
+C:\Users\kirit\LAB_OOSD\LAB4\eShopping_Prototype\eShopping\obj\Debug\net472\eShopping.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kirit\LAB_OOSD\LAB4\eShopping_Prototype\eShopping\obj\Debug\net472\eShopping.AssemblyInfoInputs.cache
+C:\Users\kirit\LAB_OOSD\LAB4\eShopping_Prototype\eShopping\obj\Debug\net472\eShopping.AssemblyInfo.cs
+C:\Users\kirit\LAB_OOSD\LAB4\eShopping_Prototype\eShopping\obj\Debug\net472\eShopping.csproj.CoreCompileInputs.cache
+C:\Users\kirit\LAB_OOSD\LAB4\eShopping_Prototype\eShopping\obj\Debug\net472\eShopping.sourcelink.json
+C:\Users\kirit\LAB_OOSD\LAB4\eShopping_Prototype\eShopping\obj\Debug\net472\eShopping.exe
+C:\Users\kirit\LAB_OOSD\LAB4\eShopping_Prototype\eShopping\obj\Debug\net472\eShopping.pdb
