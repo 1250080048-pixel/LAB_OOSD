@@ -1,1 +1,73 @@
+# Hệ thống Quản lý Nhân sự và Tiền lương (QuanLyNhanSu)
 
+Đề tài phân tích, thiết kế và cài đặt cơ sở dữ liệu cho hệ thống quản lý nhân sự và tiền lương của doanh nghiệp. Hệ thống hỗ trợ quy trình tuyển dụng và thử việc, ký hợp đồng lao động, quản lý bảo hiểm, bổ nhiệm chức vụ, tăng lương, chấm công, tính giờ phụ trội, khen thưởng/kỷ luật và tính lương hằng tháng.
+
+## Chức năng chính
+
+- **Tuyển dụng và thử việc**: lập quyết định tuyển dụng, ghi rõ thời gian thử việc, mức lương thử việc và điều khoản cam kết.
+- **Ký hợp đồng chính thức**: sau khi hết thử việc, tạo hợp đồng lao động dài hạn hoặc ngắn hạn. Với hợp đồng dài hạn, lập hồ sơ bảo hiểm y tế và bảo hiểm xã hội.
+- **Quản lý quyết định**: lưu lịch sử bổ nhiệm chức vụ và các thay đổi về lương, phụ cấp.
+- **Lập kế hoạch và chấm công**: phân công ca làm việc theo tuần, ghi nhận giờ phụ trội (tăng ca, ngày lễ, ngày nghỉ).
+- **Khen thưởng và kỷ luật**: lập quyết định kèm phiếu thu hoặc phiếu chi tương ứng.
+- **Tính lương hằng tháng**: tổng hợp công, tính tiền phụ trội, trích bảo hiểm và tạo bảng lương, phiếu lương cá nhân.
+
+## Các tác nhân
+
+| Tác nhân | Vai trò |
+| --- | --- |
+| Nhân viên | Xem phiếu lương, lịch phân công ca làm và hồ sơ cá nhân |
+| Trưởng phòng / phân xưởng | Phân công ca làm việc và phụ trội cho nhân viên trong bộ phận |
+| Ban chấm công | Theo dõi thực tế làm việc, lập bảng chấm công và phiếu phụ trội |
+| Nhân viên nhân sự | Lập quyết định tuyển dụng, hợp đồng, chức vụ, lương và hồ sơ bảo hiểm |
+| Kế toán | Lập phiếu thu/chi khen thưởng, kỷ luật và tính bảng lương hằng tháng |
+| Giám đốc | Phê duyệt tuyển dụng, hợp đồng, mức lương, khen thưởng và kỷ luật |
+
+## Quy tắc nghiệp vụ
+
+- **BR01**: nhân viên thử việc phải có quyết định tuyển dụng ghi rõ thời gian thử việc, mức lương thử việc và điều khoản cam kết.
+- **BR02**: hợp đồng lao động gồm dài hạn và ngắn hạn. Hợp đồng dài hạn bắt buộc có hồ sơ bảo hiểm xã hội và bảo hiểm y tế.
+- **BR03**: giờ phụ trội (tăng ca, ngày lễ, ngày nghỉ) được tính bằng 1,5 lần giờ lao động bình thường.
+- **BR04**: mọi thay đổi về chức vụ hoặc lương phải thông qua quyết định tương ứng.
+- **BR05**: tiền khen thưởng hoặc kỷ luật có thể thu/chi trực tiếp qua phiếu thu, phiếu chi, hoặc cộng/trừ vào bảng lương tháng.
+- **QD01**: mức đóng bảo hiểm y tế và bảo hiểm xã hội trích theo tỷ lệ quy định của Nhà nước trên lương đóng bảo hiểm.
+- **QD02**: hệ thống tự động cảnh báo khi nhân viên sắp hết hạn thử việc hoặc hết hạn hợp đồng lao động.
+
+## Cơ sở dữ liệu
+
+Hệ thống dùng **Microsoft SQL Server**, cơ sở dữ liệu `QuanLyNhanSu`. Các bảng chính:
+
+| Bảng | Mô tả |
+| --- | --- |
+| `PhongBan` | Danh mục phòng ban |
+| `NhanVien` | Thông tin nhân viên, thuộc một phòng ban, có trạng thái (thử việc / chính thức) |
+| `QuyetDinhTuyenDung` | Quyết định tuyển dụng thử việc, mỗi nhân viên một quyết định |
+| `HopDongLaoDong` | Hợp đồng lao động (dài hạn hoặc ngắn hạn) |
+| `HoSoBaoHiem` | Số BHYT, BHXH và mức đóng của nhân viên |
+| `QuyetDinhChucVu` | Quyết định bổ nhiệm chức vụ và phụ cấp chức vụ |
+| `QuyetDinhLuong` | Quyết định lương cơ bản và các khoản phụ cấp |
+| `BangChamCong` | Số ngày công và số ngày nghỉ theo tháng |
+| `PhieuGhiNhanPhuTroi` | Ghi nhận giờ phụ trội và hệ số (mặc định 1,5) |
+| `QuyetDinhKhenThuongKyLuat` | Quyết định khen thưởng hoặc kỷ luật cho cá nhân hoặc tập thể |
+| `PhieuThuChi` | Phiếu thu hoặc phiếu chi gắn với quyết định khen thưởng/kỷ luật |
+| `BangLuong` | Bảng lương tháng của từng nhân viên (ràng buộc duy nhất theo mã NV, tháng, năm) |
+
+## Cài đặt
+
+1. Mở SQL Server Management Studio hoặc công cụ tương đương.
+2. Chạy lần lượt script tạo cơ sở dữ liệu `QuanLyNhanSu`, tạo các bảng và chèn dữ liệu mẫu (có trong phần Cơ sở dữ liệu của báo cáo).
+3. Kiểm tra dữ liệu mẫu đã được nạp bằng các câu lệnh `SELECT` trên các bảng.
+
+Lưu ý khi chạy: các bảng dùng `GO` làm dấu phân cách lô lệnh, nên cần chạy theo lô hoặc dùng chế độ chạy script của công cụ.
+
+## Dữ liệu mẫu
+
+- 3 phòng ban: Phòng Tài chính kế toán, Phòng Kỹ thuật, Phòng Sản xuất.
+- 3 nhân viên mẫu, 2 hợp đồng, 1 hồ sơ bảo hiểm, 2 quyết định lương, 1 quyết định khen thưởng và 1 phiếu chi.
+
+## Thiết kế giao diện
+
+Báo cáo đề xuất các màn hình: **Main** (trang chính), **Danh mục phòng ban**, **Tuyển dụng** và **Khen thưởng**.
+
+## Các phần còn lại trong báo cáo
+
+Báo cáo gốc còn có sơ đồ use-case tổng quát, sơ đồ use-case phân rã, biểu đồ lớp phân tích, biểu đồ hoạt động (activity), biểu đồ lớp chi tiết và biểu đồ tuần tự (sequence) cho hai nhóm nghiệp vụ tuyển dụng-thử việc và tính lương hằng ngày. Các sơ đồ này nằm trong file báo cáo gốc.
