@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="egj2vgezpUYd4yxIqEU6" name="Trang-1">
+    <mxGraphModel dx="763" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nleft to right direction\n\nusecase \&quot;HUY DANG KY DOAN\&quot; as UC1\nusecase \&quot;Tìm phiếu đăng ký đoàn\&quot; as UC2\nusecase \&quot;Kiểm tra điều kiện hủy\&quot; as UC3\nusecase \&quot;Xác nhận hủy đăng ký\&quot; as UC4\nusecase \&quot;Hủy phiếu và cập nhật dữ liệu\&quot; as UC5\nusecase \&quot;Gỡ phân công HDV liên quan\&quot; as UC6\n\nUC1 ..&gt; UC2 : &lt;&lt;include&gt;&gt;\nUC1 ..&gt; UC3 : &lt;&lt;include&gt;&gt;\nUC1 ..&gt; UC4 : &lt;&lt;include&gt;&gt;\nUC1 ..&gt; UC5 : &lt;&lt;include&gt;&gt;\nUC5 ..&gt; UC6 : &lt;&lt;include&gt;&gt;\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="nHLZEa9vJAFL2SLs1Mcp-1">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="HUY DANG KY DOAN" plantUmlId="uc_0" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="HUY DANG KY DOAN" id="nHLZEa9vJAFL2SLs1Mcp-2">
+          <mxCell parent="nHLZEa9vJAFL2SLs1Mcp-1" style="ellipse;html=1;whiteSpace=wrap;fontSize=14;" vertex="1">
+            <mxGeometry height="38" width="168" x="30" y="148" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tìm phiếu đăng ký đoàn" plantUmlId="uc_1" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Tìm phiếu đăng ký đoàn" id="nHLZEa9vJAFL2SLs1Mcp-3">
+          <mxCell parent="nHLZEa9vJAFL2SLs1Mcp-1" style="ellipse;html=1;whiteSpace=wrap;fontSize=14;" vertex="1">
+            <mxGeometry height="43" width="192" x="275.1" y="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Kiểm tra điều kiện hủy" plantUmlId="uc_2" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Kiểm tra điều kiện hủy" id="nHLZEa9vJAFL2SLs1Mcp-4">
+          <mxCell parent="nHLZEa9vJAFL2SLs1Mcp-1" style="ellipse;html=1;whiteSpace=wrap;fontSize=14;" vertex="1">
+            <mxGeometry height="41" width="182" x="280.2" y="108" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Xác nhận hủy đăng ký" plantUmlId="uc_3" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Xác nhận hủy đăng ký" id="nHLZEa9vJAFL2SLs1Mcp-5">
+          <mxCell parent="nHLZEa9vJAFL2SLs1Mcp-1" style="ellipse;html=1;whiteSpace=wrap;fontSize=14;" vertex="1">
+            <mxGeometry height="40" width="177" x="282.8" y="184" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Hủy phiếu và cập nhật dữ liệu" plantUmlId="uc_4" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Hủy phiếu và cập nhật dữ liệu" id="nHLZEa9vJAFL2SLs1Mcp-6">
+          <mxCell parent="nHLZEa9vJAFL2SLs1Mcp-1" style="ellipse;html=1;whiteSpace=wrap;fontSize=14;" vertex="1">
+            <mxGeometry height="50" width="226" x="258.4" y="259" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Gỡ phân công HDV liên quan" plantUmlId="uc_5" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Gỡ phân công HDV liên quan" id="nHLZEa9vJAFL2SLs1Mcp-7">
+          <mxCell parent="nHLZEa9vJAFL2SLs1Mcp-1" style="ellipse;html=1;whiteSpace=wrap;fontSize=14;" vertex="1">
+            <mxGeometry height="48" width="217" x="544.5" y="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«include»" plantUmlId="rel_6" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«include»" id="nHLZEa9vJAFL2SLs1Mcp-8">
+          <mxCell edge="1" parent="nHLZEa9vJAFL2SLs1Mcp-1" source="nHLZEa9vJAFL2SLs1Mcp-2" style="endArrow=open;dashed=1;dashPattern=5 5;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="nHLZEa9vJAFL2SLs1Mcp-3">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«include»" plantUmlId="rel_7" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«include»" id="nHLZEa9vJAFL2SLs1Mcp-9">
+          <mxCell edge="1" parent="nHLZEa9vJAFL2SLs1Mcp-1" source="nHLZEa9vJAFL2SLs1Mcp-2" style="endArrow=open;dashed=1;dashPattern=5 5;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="nHLZEa9vJAFL2SLs1Mcp-4">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«include»" plantUmlId="rel_8" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«include»" id="nHLZEa9vJAFL2SLs1Mcp-10">
+          <mxCell edge="1" parent="nHLZEa9vJAFL2SLs1Mcp-1" source="nHLZEa9vJAFL2SLs1Mcp-2" style="endArrow=open;dashed=1;dashPattern=5 5;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="nHLZEa9vJAFL2SLs1Mcp-5">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«include»" plantUmlId="rel_9" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«include»" id="nHLZEa9vJAFL2SLs1Mcp-11">
+          <mxCell edge="1" parent="nHLZEa9vJAFL2SLs1Mcp-1" source="nHLZEa9vJAFL2SLs1Mcp-2" style="endArrow=open;dashed=1;dashPattern=5 5;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="nHLZEa9vJAFL2SLs1Mcp-6">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«include»" plantUmlId="rel_10" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«include»" id="nHLZEa9vJAFL2SLs1Mcp-12">
+          <mxCell edge="1" parent="nHLZEa9vJAFL2SLs1Mcp-1" source="nHLZEa9vJAFL2SLs1Mcp-6" style="endArrow=open;dashed=1;dashPattern=5 5;fontColor=#000000;fontSize=13;edgeStyle=none;rounded=0;html=1;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="nHLZEa9vJAFL2SLs1Mcp-7">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
